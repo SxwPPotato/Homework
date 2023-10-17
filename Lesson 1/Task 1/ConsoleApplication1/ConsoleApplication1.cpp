@@ -36,6 +36,8 @@ int main()
 	}
 	fileout << num_1[0] << " ";
 
+	delete[] num_1;
+	delete[] num_2;
 	filein.close();
 	fileout.close();
 }
